@@ -36,18 +36,11 @@ a:hover {
   padding-top: 100px;
     border-radius: 6px;
     height:40 rem;
+    line-height: 2;
 
 }
 .card1:hover,.card2:hover{
   border-bottom: 4px solid pink;
-
-}
-
-.card1{
-  line-height:3;
-}
-.card2{
-  line-height: 2;
 }
 
 .project{
