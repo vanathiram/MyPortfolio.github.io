@@ -52,7 +52,7 @@
   <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="./resources/images/teacozy.png" alt="place images" class="profile-image">
+        <a href="#teacozy"><img src="./resources/images/teacozy.png" alt="place images" class="profile-image"></a>
           <div class="img-caption">
             <h4 class="tag name">Tea Cozy Project.</h4>
             </div>
@@ -60,20 +60,20 @@
 
 
     <div class="item">
-          <img src="./resources/images/colmarAcademy.png" alt="place images" class="profile-image">
+      <a href="#colmaracademy"><img src="./resources/images/colmarAcademy.png" alt="place images" class="profile-image"></a>
       <div class="img-caption">
         <h4 class="tag name">Colmar Academy Project.</h4>
         </div>
     </div>
 
     <div class="item">
-          <img src="./resources/images/tributePage.png" alt="place images" class="profile-image">
+      <a href="#tribute"><img src="./resources/images/tributePage.png" alt="place images" class="profile-image"></a>
       <div class="img-caption">
         <h4 class="tag name">Tribute page.</h4>
       </div>
     </div>
     <div class="item">
-          <img src="./resources/images/jumpstart.png" alt="place images" class="profile-image">
+      <a href="#jumpstart"><img src="./resources/images/jumpstart.png" alt="place images" class="profile-image"></a>
       <div class="img-caption">
         <h4 class="tag name">Jumpstart Project.</h4>
       </div>
@@ -98,7 +98,7 @@
   <div id="skills" class="container-fluid skills" >
     <div class="row ">
       <div class="col-sm-4 col-sm-offset-1 card1 well">
-      <h2>Background</h2>
+      <h2>BACKGROUND</h2>
       <p>
         I’m an aspiring web developer who loves everything about the web.
         I’m excited to bring my life experience to the process of building fantastic looking websites.
@@ -109,16 +109,15 @@
       </div>
 
       <div class="col-sm-4 col-sm-offset-2 card2 well">
-        <h2 >Goals</h2>
+        <h2 >GOALS</h2>
         <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
           <ul >
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>Ruby</li>
-
+            <li>Bootstrap</li>
           </ul>
-        <p>I’d like to work webdeveloper helping clients create an impressive online presence.</p>
+        <p>I’d like to work as a webdeveloper helping clients create an impressive online presence.</p>
     </div>
     </div>
   </div>
@@ -129,9 +128,9 @@
   </div>
   <!--projects-->
   <div class="container-fluid text-center projects" id="projects">
-    <h3 >Projects</h3>
+    <h2>PROJECTS</h2>
       <div class="row">
-        <div class="col-sm-4 project1">
+        <div class="col-sm-4 project">
           <h4>Random Quotes Generator</h4>
           <div class="image-container">
           <a href="https://codepen.io/van1/full/PJbvGZ/" target="_blank" >
@@ -139,7 +138,7 @@
         </div>
       </div>
 
-    <div class="col-sm-4 project2">
+    <div class="col-sm-4 project" id="teacozy">
       <h4>Tea Cozy</h4>
       <div class="image-container">
       <a href="https://vanathiram.github.io/Teacozy.github.io/" target="_blank" >
@@ -147,15 +146,15 @@
     </div>
   </div>
 
-    <div class="col-sm-4 project3">
-      <h4>colmar Academy</h4>
+    <div class="col-sm-4 project" id="colmaracademy">
+      <h4>Colmar Academy</h4>
       <div class="image-container">
       <a href="https://vanathiram.github.io/capstone.github.io/" target="_blank" >
       <img src="./resources/images/colmarAcademy.png" class="img-responsive margin" style="width:100%" alt="Quotes Generator"></a>
     </div>
   </div>
 
-    <div class="col-sm-4 project4">
+    <div class="col-sm-4 project" id="tribute">
       <h4>Tribute Page</h4>
       <div class="image-container">
       <a href="https://codepen.io/van1/full/rzzoay/" target="_blank" >
@@ -163,7 +162,7 @@
     </div>
   </div>
 
-    <div class="col-sm-4 project5">
+    <div class="col-sm-4 project">
       <h4>Medical Transcription</h4>
       <div class="image-container">
       <a href="https://vanathiram.github.io/sample1.github.io/" target="_blank" >
@@ -171,13 +170,20 @@
     </div>
   </div>
 
-    <div class="col-sm-4 project6">
+    <div class="col-sm-4 project" id="jumpstart">
       <h4> Jump Start project  </h4>
       <div class="image-container">
       <a href="https://vanathiram.github.io/jumpstart.github.io/" target="_blank" >
       <img src="./resources/images/jumpstart.png" class="img-responsive margin" style="width:100%" alt="Quotes Generator"></a>
     </div>
   </div>
+  <div class="col-sm-4 col-sm-offset-4 project">
+    <h4>My WordPress Blog</h4>
+    <div class="image-container">
+    <a href="http://mywebsite0007.wordpress.com" target="_blank" >
+    <img src="./resources/images/myBlog.png" class="img-responsive margin" style="width:100%" alt="Medical Transcription Site"></a>
+  </div>
+</div>
   </div>
 </div>
 <!--contact-->
@@ -210,7 +216,14 @@
 <!--End Contact -->
 <!-- Footer -->
   <footer class="container-fluid  text-center">
-  <p class="copyright">Copyright 2017, Vanathi Ramasamy</p>
+    <ul id="imageGallery">
+        <li><a href="https://codepen.io/van1/" target="_blank" class="social codepen">Codepen</a></li>
+        <li><a href="https://teamtreehouse.com/vanathiramasamy" target="_blank" class="social linkedin">Teamtreehouse</a></li>
+        <li><a href="https://github.com/vanathiram" target="_blank" class="social github">Github</a></li>
+        <li><a href="https://www.freecodecamp.org/vanathiram" target="_blank" class="social freecodecamp">Freecodecamp</a></li>
+      </ul>
+      <p class="copyright">Copyright 2017, Vanathi Ramasamy</p>
+
   </footer>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

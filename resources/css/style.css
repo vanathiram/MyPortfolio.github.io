@@ -50,10 +50,13 @@ a:hover {
   line-height: 2;
 }
 
-
+.project{
+  padding-top: 4rem;
+}
 .image-container
 {
   overflow: hidden;
+  padding-top: 4rem;
 }
 
 .image-container img
