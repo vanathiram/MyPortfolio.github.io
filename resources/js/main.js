@@ -15,3 +15,5 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+document.getElementById("footernote").innerHTML="Maintained by Vanathi Ramasamy"
